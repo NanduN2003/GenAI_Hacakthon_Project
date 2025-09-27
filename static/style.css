@@ -1,0 +1,529 @@
+/* Main Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #fff;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Main page content layout */
+.main-content {
+    max-width: 900px; 
+    margin: 0 auto;   
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+/* Chatbot Icon Style */
+#chatbot-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #0078D4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+#chatbot-icon:hover {
+    transform: scale(1.1);
+}
+
+#chatbot-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Chatbot Popup Style */
+#chatbot-popup {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 350px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+
+#chatbot-popup.maximized {
+    bottom: 20px;
+    right: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 80px);
+}
+
+#chatbot-popup.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+}
+
+#chat-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-header {
+    background-color: #0078D4;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chat-header h2 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+#close-chatbot {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Header controls */
+.header-controls {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.header-controls button {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header-controls button:focus {
+    outline: 2px solid rgba(255,255,255,0.4);
+}
+
+#chat-messages {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left; 
+}
+
+
+.additional-info, .notes {
+    margin-top: 8px;
+    font-size: 0.95em;
+    color: #333;
+}
+
+.additional-info ul, .notes ul {
+    margin: 6px 0 0 18px;
+    padding: 0;
+}
+
+.notes strong, .additional-info strong {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+/* Resizer handle */
+#resizer {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    right: 6px;
+    bottom: 6px;
+    cursor: se-resize;
+    background: rgba(0,0,0,0.12);
+    border-radius: 3px;
+}
+
+/* Make popup draggable */
+#chatbot-popup[aria-dragging="true"] {
+    opacity: 0.95;
+}
+
+/* Size presets dropdown styling */
+.size-preset-list {
+    position: absolute;
+    right: 44px;
+    top: 10px;
+    background: white;
+    color: #333;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    padding: 6px;
+    display: none;
+    z-index: 9999;
+}
+
+.size-preset-list button {
+    background: none;
+    border: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.size-preset-list button:hover { background: #f3f3f3; }
+
+.message {
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+.bot-message {
+    background-color: #e9e9eb;
+    color: #333;
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+}
+
+.bot-message .details-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.bot-message .details-list li {
+    padding: 2px 0;
+}
+
+.response-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.response-section h5, .response-section h6 {
+    font-size: 1em; 
+    font-weight: 600; 
+    margin-bottom: 8px;
+    margin-top: 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.response-section h6 {
+    margin-top: 10px;
+    border-bottom: none; 
+    font-weight: 500; 
+}
+
+.user-message {
+    background-color: #0078D4;
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+}
+
+#chat-input-area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+#attachment-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#company-input-container {
+    width: 100%;
+    margin-bottom: 8px;
+    flex-grow: 1;
+}
+
+#company-name-input {
+    width: calc(100% - 20px); 
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+#company-input-container.hidden, #attachment-container.hidden {
+    display: none;
+}
+
+#attach-button, #send-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #0078D4;
+}
+
+#file-name {
+    flex-grow: 1;
+    margin: 0 10px;
+    font-size: 0.9em;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.offers-list {
+    list-style: none;
+    padding: 0;
+}
+
+.offer-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.offer-price {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.itinerary {
+    margin-top: 8px;
+}
+
+.itinerary h6 {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0 0 4px 0;
+}
+
+.segments-list {
+    list-style: none;
+    padding-left: 12px;
+    border-left: 2px solid #0078D4;
+}
+
+/* Confirmation Buttons */
+.confirmation-container {
+    padding-top: 10px;
+}
+
+.confirmation-container p {
+    margin: 0 0 10px;
+    font-size: 1em;
+}
+
+.btn-confirm, .btn-cancel {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-confirm {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #218838;
+}
+
+.btn-confirm:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+.btn-cancel:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+/* Flight Offer Recommendations */
+.offers-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* One card per row */
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.offer-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.offer-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #e9ecef;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.offer-price-label {
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.offer-price-value {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.offer-card-body {
+    padding: 15px;
+}
+
+.itinerary {
+    margin-bottom: 15px;
+}
+
+.itinerary:last-child {
+    margin-bottom: 0;
+}
+
+.itinerary h6 {
+    font-size: 0.95em;
+    font-weight: bold;
+    color: #0078D4;
+    margin: 0 0 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.segments-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.segment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed #e0e0e0;
+    font-size: 0.9em;
+}
+
+.segment-item:last-child {
+    border-bottom: none;
+}
+
+.segment-airline {
+    font-weight: 500;
+    color: #495057;
+    flex-basis: 25%;
+}
+
+.segment-airports {
+    text-align: center;
+    flex-basis: 40%;
+}
+
+.segment-times {
+    color: #6c757d;
+    text-align: right;
+    flex-basis: 35%;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+/* Deal Badge */
+.deal-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.deal-good {
+    background-color: #28a745; 
+}
+
+.deal-neutral {
+    background-color: #ffc107; 
+    color: #333;
+}
+
+/* Hotel recommendations */
+.hotel-list {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hotel-item {
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #e6e6e6;
+}
+
+.hotel-address {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 6px;
+}

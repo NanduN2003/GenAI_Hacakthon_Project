@@ -1,0 +1,2884 @@
+[
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 1,
+      "Name": "Collins-Bush",
+      "Address": "PSC 6943, Box 6902, APO AE 71307",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Kevin",
+          "LastName": "Brown",
+          "Email": "barkernicole@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Barry",
+          "LastName": "Fields",
+          "Email": "kinglindsey@hotmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Levi",
+          "LastName": "Henry",
+          "Email": "toddmorales@yahoo.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Rita",
+          "LastName": "Goodwin",
+          "Email": "vclark@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Southwest Airlines",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "COLLINS-BUSHSOUTHWEST"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 2,
+      "Name": "Reilly, Ali and Long",
+      "Address": "262 Jones Court, Lake Jerrymouth, NM 95761",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Michael",
+          "LastName": "Johnson",
+          "Email": "ncollins@garcia.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "AirAsia",
+          "Alliance": "LowCost",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "REILLY,ALIANDLONGAIRASIA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "REILLY,ALIANDLONGHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "REILLY,ALIANDLONGGROUND"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Standard",
+          "DiscountCode": "REILLY,ALIANDLONGMEAL"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 3,
+      "Name": "Williams-Arroyo",
+      "Address": "4183 Amy Avenue Apt. 258, Lake Mary, NC 98170",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Julia",
+          "LastName": "Martinez",
+          "Email": "johnsonwalter@villegas.biz"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Ryanair",
+          "Alliance": "LowCost",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "WILLIAMS-ARROYORYANAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "WILLIAMS-ARROYOEASYJET"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Marriott Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "WILLIAMS-ARROYOHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "WILLIAMS-ARROYOROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "WILLIAMS-ARROYOCLASS"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "WILLIAMS-ARROYOGROUND"
+        },
+        {
+          "Id": 7,
+          "ServiceType": "Meal",
+          "Description": "Vegan",
+          "DiscountCode": "WILLIAMS-ARROYOMEAL"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 4,
+      "Name": "Ford-Bruce",
+      "Address": "2350 Jim Mountain, East Abigail, ID 23549",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Derrick",
+          "LastName": "Lee",
+          "Email": "bradley91@davis-ellis.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Business",
+          "DiscountCode": "FORD-BRUCEDELTA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Air France",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "FORD-BRUCEAIR"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Crowne Plaza",
+          "Category": "MidRange",
+          "DiscountCode": "FORD-BRUCEHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "FORD-BRUCEROUTE"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 5,
+      "Name": "Brown-Rodriguez",
+      "Address": "USNS Williams, FPO AA 72428",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Karen",
+          "LastName": "Garcia",
+          "Email": "rcoleman@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Christopher",
+          "LastName": "Carr",
+          "Email": "jose54@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Randy",
+          "LastName": "Gutierrez",
+          "Email": "alexanderwilliams@blevins-thompson.info"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Joshua",
+          "LastName": "Mills",
+          "Email": "fthompson@cruz.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Southwest Airlines",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "BROWN-RODRIGUEZSOUTHWEST"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "BROWN-RODRIGUEZHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "BROWN-RODRIGUEZCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "BROWN-RODRIGUEZGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Vegetarian",
+          "DiscountCode": "BROWN-RODRIGUEZMEAL"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 6,
+      "Name": "Walker-Simon",
+      "Address": "Unit 5901 Box 5464, DPO AP 27488",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Samuel",
+          "LastName": "Lee",
+          "Email": "ppalmer@johnson.org"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Qatar Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Business",
+          "DiscountCode": "WALKER-SIMONQATAR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "American Airlines",
+          "Alliance": "OneWorld",
+          "ClassPreference": "First",
+          "DiscountCode": "WALKER-SIMONAMERICAN"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "WALKER-SIMONHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "NYC-SFO",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "WALKER-SIMONROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "WALKER-SIMONCLASS"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "WALKER-SIMONGROUND"
+        },
+        {
+          "Id": 7,
+          "ServiceType": "Meal",
+          "Description": "Halal",
+          "DiscountCode": "WALKER-SIMONMEAL"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 7,
+      "Name": "Martinez LLC",
+      "Address": "PSC 0672, Box 9293, APO AP 10470",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Malik",
+          "LastName": "Salinas",
+          "Email": "kennethwilson@brewer-nelson.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Sarah",
+          "LastName": "Vaughn",
+          "Email": "kirstensnyder@thompson-edwards.org"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "MARTINEZLLCEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hyatt Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "MARTINEZLLCHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "MARTINEZLLCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Gluten-free",
+          "DiscountCode": "MARTINEZLLCMEAL"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 8,
+      "Name": "Grant, Daniel and Marks",
+      "Address": "25260 May Underpass Suite 353, Sharonburgh, UT 82831",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Michelle",
+          "LastName": "Thompson",
+          "Email": "joseph01@rodriguez.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Paul",
+          "LastName": "Rowe",
+          "Email": "kimberly96@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Lori",
+          "LastName": "Maxwell",
+          "Email": "wgutierrez@le.org"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Alec",
+          "LastName": "Carlson",
+          "Email": "rrobinson@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "GRANT,DANIELANDMARKSEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Ryanair",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "GRANT,DANIELANDMARKSRYANAIR"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Marriott Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "GRANT,DANIELANDMARKSHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "GRANT,DANIELANDMARKSGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 9,
+      "Name": "Smith-Clark",
+      "Address": "17142 Nelson Roads, East Jennifermouth, AZ 02090",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Anna",
+          "LastName": "Williams",
+          "Email": "debra96@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Travis",
+          "LastName": "Holland",
+          "Email": "taylordavid@murphy-green.net"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Luke",
+          "LastName": "Rodriguez",
+          "Email": "melindanunez@gmail.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Pamela",
+          "LastName": "Farmer",
+          "Email": "lreyes@brown.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "SMITH-CLARKEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "AirAsia",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "SMITH-CLARKAIRASIA"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Radisson Blu",
+          "Category": "MidRange",
+          "DiscountCode": "SMITH-CLARKHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "SMITH-CLARKROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "SMITH-CLARKGROUND"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "Meal",
+          "Description": "Gluten-free",
+          "DiscountCode": "SMITH-CLARKMEAL"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 10,
+      "Name": "Powell, Smith and Juarez",
+      "Address": "PSC 3179, Box 0848, APO AP 35121",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Gerald",
+          "LastName": "Church",
+          "Email": "campbelllauren@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Steven",
+          "LastName": "Hancock",
+          "Email": "rogerskristen@hotmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Gwendolyn",
+          "LastName": "Guzman",
+          "Email": "paula43@gmail.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Walter",
+          "LastName": "Jones",
+          "Email": "collinsjohn@lawson.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Korean Air",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Business",
+          "DiscountCode": "POWELL,SMITHANDJUAREZKOREAN"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "KLM",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "POWELL,SMITHANDJUAREZKLM"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Holiday Inn",
+          "Category": "MidRange",
+          "DiscountCode": "POWELL,SMITHANDJUAREZHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "POWELL,SMITHANDJUAREZGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Gluten-free",
+          "DiscountCode": "POWELL,SMITHANDJUAREZMEAL"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 11,
+      "Name": "Moore Group",
+      "Address": "02355 Christian Landing Apt. 121, West Beverly, NV 23487",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Alex",
+          "LastName": "Young",
+          "Email": "esanchez@yahoo.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Philip",
+          "LastName": "Villa",
+          "Email": "amandacalhoun@ingram-leblanc.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Cynthia",
+          "LastName": "Cervantes",
+          "Email": "hannahmontgomery@hernandez-lawson.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Air India",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "MOOREGROUPAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Holiday Inn",
+          "Category": "MidRange",
+          "DiscountCode": "MOOREGROUPHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "MOOREGROUPGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 12,
+      "Name": "Kelly LLC",
+      "Address": "30430 George Trace Suite 139, Mooreberg, AL 81307",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Kathryn",
+          "LastName": "Grimes",
+          "Email": "cynthiahess@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Kevin",
+          "LastName": "Adams",
+          "Email": "pcole@hotmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Benjamin",
+          "LastName": "Lopez",
+          "Email": "ryanpennington@gmail.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Pamela",
+          "LastName": "Miller",
+          "Email": "joneslaura@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "United Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Economy",
+          "DiscountCode": "KELLYLLCUNITED"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "OYO Rooms",
+          "Category": "Budget",
+          "DiscountCode": "KELLYLLCHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "ORD-FRA",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "KELLYLLCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "KELLYLLCGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 13,
+      "Name": "Mitchell, Allen and Lindsey",
+      "Address": "81808 Angela Hill, Greeneshire, TN 92642",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Sheri",
+          "LastName": "Riggs",
+          "Email": "bakerolivia@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Joseph",
+          "LastName": "Rivera",
+          "Email": "nelsonjeffrey@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Qatar Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "First",
+          "DiscountCode": "MITCHELL,ALLENANDLINDSEYQATAR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "MITCHELL,ALLENANDLINDSEYROUTE"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 14,
+      "Name": "Davis Ltd",
+      "Address": "47088 Brittany Fork Apt. 007, Lake Anthonychester, CT 62927",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Audrey",
+          "LastName": "Wang",
+          "Email": "ucalhoun@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Christopher",
+          "LastName": "Smith",
+          "Email": "ruizglenn@davis.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "DAVISLTDEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Ibis",
+          "Category": "Budget",
+          "DiscountCode": "DAVISLTDHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "DAVISLTDGROUND"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Halal",
+          "DiscountCode": "DAVISLTDMEAL"
+        }
+      ],
+      "AgencyNotes": "Individual lose rate process camera administration space sign place investment crime."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 15,
+      "Name": "Lee Group",
+      "Address": "577 Delacruz Row, Millsbury, IA 24215",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Deanna",
+          "LastName": "Rodriguez",
+          "Email": "carteramanda@hamilton.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Angela",
+          "LastName": "Cannon",
+          "Email": "sabrinahernandez@jones.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Qatar Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Business",
+          "DiscountCode": "LEEGROUPQATAR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "LEEGROUPROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "LEEGROUPCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Standard",
+          "DiscountCode": "LEEGROUPMEAL"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 16,
+      "Name": "Moses-Stevens",
+      "Address": "968 Taylor Cove Apt. 037, Taylorport, DC 32374",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Scott",
+          "LastName": "Garner",
+          "Email": "benjaminhamilton@greene.biz"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jean",
+          "LastName": "Baker",
+          "Email": "michelle34@wilson.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "MOSES-STEVENSBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "MOSES-STEVENSHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "MOSES-STEVENSROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "MOSES-STEVENSGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Vegetarian",
+          "DiscountCode": "MOSES-STEVENSMEAL"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 17,
+      "Name": "Cox-Stein",
+      "Address": "651 Ronald Wells, North John, NH 87446",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Paul",
+          "LastName": "Juarez",
+          "Email": "anne23@ramirez.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Air India",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "First",
+          "DiscountCode": "COX-STEINAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "COX-STEINROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Meal",
+          "Description": "Halal",
+          "DiscountCode": "COX-STEINMEAL"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 18,
+      "Name": "Perez Inc",
+      "Address": "94105 Scott Pass, New Helenbury, WV 89027",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Cody",
+          "LastName": "Bradley",
+          "Email": "adamhenderson@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Charles",
+          "LastName": "Sawyer",
+          "Email": "twells@yahoo.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "William",
+          "LastName": "Jones",
+          "Email": "davidday@jones-brown.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "George",
+          "LastName": "Roberts",
+          "Email": "williamsrachael@petty.biz"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Business",
+          "DiscountCode": "PEREZINCBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "PEREZINCROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "PEREZINCCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Gluten-free",
+          "DiscountCode": "PEREZINCMEAL"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 19,
+      "Name": "Green PLC",
+      "Address": "752 Freeman Trace, Hopkinsport, NJ 03250",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Hannah",
+          "LastName": "Miller",
+          "Email": "slee@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Rachel",
+          "LastName": "Strickland",
+          "Email": "jacqueline38@valentine-bright.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Brittney",
+          "LastName": "Krueger",
+          "Email": "christopher69@hotmail.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Stephen",
+          "LastName": "Bailey",
+          "Email": "parksgary@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "First",
+          "DiscountCode": "GREENPLCEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "AirAsia",
+          "Alliance": "LowCost",
+          "ClassPreference": "Business",
+          "DiscountCode": "GREENPLCAIRASIA"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Novotel",
+          "Category": "MidRange",
+          "DiscountCode": "GREENPLCHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "GREENPLCGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Halal",
+          "DiscountCode": "GREENPLCMEAL"
+        }
+      ],
+      "AgencyNotes": "Live already pay remain guess will than those nothing police authority morning."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 20,
+      "Name": "Bishop, Pace and Barry",
+      "Address": "482 Diaz Circles, South Robertport, AL 58412",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Bonnie",
+          "LastName": "Sanchez",
+          "Email": "gramirez@hurley-lopez.org"
+        },
+        {
+          "Id": 2,
+          "FirstName": "John",
+          "LastName": "Macdonald",
+          "Email": "bellison@ward-krause.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "American Airlines",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "BISHOP,PACEANDBARRYAMERICAN"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "BISHOP,PACEANDBARRYBRITISH"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "NYC-SFO",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "BISHOP,PACEANDBARRYROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "BISHOP,PACEANDBARRYCLASS"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 21,
+      "Name": "Tate Inc",
+      "Address": "98238 Bauer Skyway, West Autumn, HI 60994",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Joyce",
+          "LastName": "Smith",
+          "Email": "christopherwarner@thomas.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Melissa",
+          "LastName": "Palmer",
+          "Email": "sgarcia@parsons-williams.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Korean Air",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Business",
+          "DiscountCode": "TATEINCKOREAN"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "KLM",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "TATEINCKLM"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "TATEINCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "ClassPolicy",
+          "Description": "If flight > 8 hrs \u2192 Business allowed",
+          "DiscountCode": "TATEINCCLASS"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "TATEINCGROUND"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "Meal",
+          "Description": "Standard",
+          "DiscountCode": "TATEINCMEAL"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 22,
+      "Name": "Russell, Harris and Zimmerman",
+      "Address": "8386 Taylor Bypass Suite 889, West Michael, TN 83331",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Rebecca",
+          "LastName": "Rollins",
+          "Email": "leonard36@chambers.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Mark",
+          "LastName": "Valentine",
+          "Email": "james46@yahoo.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "RUSSELL,HARRISANDZIMMERMANEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "RUSSELL,HARRISANDZIMMERMANROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "RUSSELL,HARRISANDZIMMERMANCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "RUSSELL,HARRISANDZIMMERMANGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Kosher",
+          "DiscountCode": "RUSSELL,HARRISANDZIMMERMANMEAL"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 23,
+      "Name": "Cook, Stanley and Smith",
+      "Address": "2790 Benjamin Ranch, Jessicaview, SD 43092",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "John",
+          "LastName": "Henson",
+          "Email": "lindseyhill@payne.biz"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "KLM",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Business",
+          "DiscountCode": "COOK,STANLEYANDSMITHKLM"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "OYO Rooms",
+          "Category": "Budget",
+          "DiscountCode": "COOK,STANLEYANDSMITHHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "COOK,STANLEYANDSMITHROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Vegan",
+          "DiscountCode": "COOK,STANLEYANDSMITHMEAL"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 24,
+      "Name": "Gonzales, Moon and Cisneros",
+      "Address": "741 Alicia Springs, Hughesmouth, PA 95061",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Nancy",
+          "LastName": "Anderson",
+          "Email": "katherine53@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Mathew",
+          "LastName": "Harris",
+          "Email": "patrickjennifer@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Yolanda",
+          "LastName": "Crawford",
+          "Email": "stephenlewis@yates.net"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Air France",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSDELTA"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "ClassPolicy",
+          "Description": "Managers \u2192 Premium Economy",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSCLASS"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSGROUND"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "Meal",
+          "Description": "Halal",
+          "DiscountCode": "GONZALES,MOONANDCISNEROSMEAL"
+        }
+      ],
+      "AgencyNotes": "Less response feeling mention take character during turn view describe box."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 25,
+      "Name": "Jones Ltd",
+      "Address": "40402 Evans Mission, West Rachel, GA 67684",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Kevin",
+          "LastName": "Glenn",
+          "Email": "mckenzielinda@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jesse",
+          "LastName": "Black",
+          "Email": "josephgray@walker.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Leah",
+          "LastName": "Foley",
+          "Email": "marie67@nolan.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Anthony",
+          "LastName": "Cohen",
+          "Email": "reyesrenee@davidson.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Economy",
+          "DiscountCode": "JONESLTDDELTA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Holiday Inn",
+          "Category": "MidRange",
+          "DiscountCode": "JONESLTDHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "ORD-FRA",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "JONESLTDROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "JONESLTDGROUND"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Standard",
+          "DiscountCode": "JONESLTDMEAL"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 26,
+      "Name": "Becker-Smith",
+      "Address": "47419 Ruiz Unions Suite 879, Williammouth, MO 23628",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Robert",
+          "LastName": "Carroll",
+          "Email": "aliciaowens@crosby.net"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jerry",
+          "LastName": "Young",
+          "Email": "newmanjason@crane.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Nancy",
+          "LastName": "Harris",
+          "Email": "stevenmatthews@molina.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Walter",
+          "LastName": "Singleton",
+          "Email": "charles91@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Ryanair",
+          "Alliance": "LowCost",
+          "ClassPreference": "Business",
+          "DiscountCode": "BECKER-SMITHRYANAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "Business",
+          "DiscountCode": "BECKER-SMITHEASYJET"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "BECKER-SMITHROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "BECKER-SMITHGROUND"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 27,
+      "Name": "Bush, Myers and White",
+      "Address": "9985 Colleen Parkway, North Davidmouth, NV 74973",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Jasmine",
+          "LastName": "Bradford",
+          "Email": "igutierrez@perez-wood.info"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Anne",
+          "LastName": "Smith",
+          "Email": "wardkaren@yahoo.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Diane",
+          "LastName": "Buchanan",
+          "Email": "iadams@yahoo.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Economy",
+          "DiscountCode": "BUSH,MYERSANDWHITEDELTA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Holiday Inn",
+          "Category": "MidRange",
+          "DiscountCode": "BUSH,MYERSANDWHITEHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "BUSH,MYERSANDWHITEROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "BUSH,MYERSANDWHITEGROUND"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 28,
+      "Name": "Scott-Young",
+      "Address": "93149 Pratt Tunnel Suite 111, East Bradley, SC 93234",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Shawn",
+          "LastName": "Mack",
+          "Email": "burgesssandra@mcgrath.net"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Laura",
+          "LastName": "Barton",
+          "Email": "armstronglaura@chavez.biz"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Melvin",
+          "LastName": "Murray",
+          "Email": "rsimpson@mccoy.net"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Business",
+          "DiscountCode": "SCOTT-YOUNGDELTA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "SCOTT-YOUNGROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "If flight > 8 hrs \u2192 Business allowed",
+          "DiscountCode": "SCOTT-YOUNGCLASS"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 29,
+      "Name": "Newman Inc",
+      "Address": "90520 Rosales Bypass, Letown, IL 30725",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Matthew",
+          "LastName": "Henson",
+          "Email": "lorimeyers@yahoo.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Trevor",
+          "LastName": "Ballard",
+          "Email": "turnerlynn@hawkins.info"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Qatar Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "NEWMANINCQATAR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Prefer direct flights",
+          "DiscountCode": "NEWMANINCROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "NEWMANINCGROUND"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 30,
+      "Name": "Roach-Bradshaw",
+      "Address": "2400 Brenda Hollow, Port Jennifer, TN 41967",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Michael",
+          "LastName": "Serrano",
+          "Email": "gambledaniel@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Angela",
+          "LastName": "Morris",
+          "Email": "phawkins@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Singapore Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Economy",
+          "DiscountCode": "ROACH-BRADSHAWSINGAPORE"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Air India",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Economy",
+          "DiscountCode": "ROACH-BRADSHAWAIR"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Ibis",
+          "Category": "Budget",
+          "DiscountCode": "ROACH-BRADSHAWHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "NYC-SFO",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "ROACH-BRADSHAWROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "ROACH-BRADSHAWCLASS"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "ROACH-BRADSHAWGROUND"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 31,
+      "Name": "Palmer PLC",
+      "Address": "809 Waller Ville, Port Sandrastad, VT 79722",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Nancy",
+          "LastName": "King",
+          "Email": "chelsea70@richards.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Scott",
+          "LastName": "Clarke",
+          "Email": "tyler54@cooper.biz"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Veronica",
+          "LastName": "Davis",
+          "Email": "thomasdaniel@hayes.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Pamela",
+          "LastName": "Elliott",
+          "Email": "fadams@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Lufthansa",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "First",
+          "DiscountCode": "PALMERPLCLUFTHANSA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Singapore Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Economy",
+          "DiscountCode": "PALMERPLCSINGAPORE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Premier Inn",
+          "Category": "Budget",
+          "DiscountCode": "PALMERPLCHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Uber",
+          "DiscountCode": "PALMERPLCGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 32,
+      "Name": "Johnson and Sons",
+      "Address": "1701 Shane Gardens Apt. 603, East Justinport, IL 63924",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Cassandra",
+          "LastName": "Clark",
+          "Email": "gbryant@mullins.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "KLM",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "JOHNSONANDSONSKLM"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "JOHNSONANDSONSDELTA"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Holiday Inn",
+          "Category": "MidRange",
+          "DiscountCode": "JOHNSONANDSONSHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "JOHNSONANDSONSROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "JOHNSONANDSONSGROUND"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 33,
+      "Name": "Barr and Sons",
+      "Address": "10074 Angelica River Suite 195, North Megan, PA 20273",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Joseph",
+          "LastName": "Watson",
+          "Email": "bobby19@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jennifer",
+          "LastName": "Carey",
+          "Email": "hhooper@yahoo.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Mackenzie",
+          "LastName": "Goodwin",
+          "Email": "simonaustin@yahoo.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Lori",
+          "LastName": "Mclaughlin",
+          "Email": "timothy83@harris-wilson.info"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "BARRANDSONSBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Novotel",
+          "Category": "MidRange",
+          "DiscountCode": "BARRANDSONSHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "BARRANDSONSGROUND"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 34,
+      "Name": "Petersen PLC",
+      "Address": "134 Michelle Neck, Wagnerview, UT 71170",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Steven",
+          "LastName": "Ibarra",
+          "Email": "floressandra@sullivan.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "April",
+          "LastName": "Parker",
+          "Email": "jamesfrye@romero-rowe.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Shane",
+          "LastName": "Young",
+          "Email": "harrisjoseph@hotmail.com"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Casey",
+          "LastName": "Carlson",
+          "Email": "hernandezian@edwards.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "First",
+          "DiscountCode": "PETERSENPLCBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "OYO Rooms",
+          "Category": "Budget",
+          "DiscountCode": "PETERSENPLCHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "NYC-LON",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "PETERSENPLCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "PETERSENPLCCLASS"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "PETERSENPLCGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 35,
+      "Name": "Jones, Petersen and Reyes",
+      "Address": "2224 Russell Ramp Suite 695, North Tracyton, FL 42157",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Nicole",
+          "LastName": "Chaney",
+          "Email": "richardmoran@olsen.biz"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Stacey",
+          "LastName": "Medina",
+          "Email": "lauren38@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Delta Airlines",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "Economy",
+          "DiscountCode": "JONES,PETERSENANDREYESDELTA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Premier Inn",
+          "Category": "Budget",
+          "DiscountCode": "JONES,PETERSENANDREYESHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "If flight > 8 hrs \u2192 Business allowed",
+          "DiscountCode": "JONES,PETERSENANDREYESCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Ola",
+          "DiscountCode": "JONES,PETERSENANDREYESGROUND"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 36,
+      "Name": "Johnson-Wong",
+      "Address": "USCGC Manning, FPO AA 90263",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Cassandra",
+          "LastName": "Harrison",
+          "Email": "xruiz@reed.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Theodore",
+          "LastName": "Pham",
+          "Email": "bradleymike@moody.info"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Andrew",
+          "LastName": "Myers",
+          "Email": "claytondaniel@nelson.info"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Southwest Airlines",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "JOHNSON-WONGSOUTHWEST"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-SIN",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "JOHNSON-WONGROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "JOHNSON-WONGCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "JOHNSON-WONGGROUND"
+        }
+      ],
+      "AgencyNotes": "CEO avoids overnight flights."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 37,
+      "Name": "Wang PLC",
+      "Address": "USCGC Rogers, FPO AE 37962",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Melissa",
+          "LastName": "Oliver",
+          "Email": "lopezbrent@hotmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Aaron",
+          "LastName": "Flores",
+          "Email": "donnacarlson@baird.org"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Anthony",
+          "LastName": "Winters",
+          "Email": "alexandra29@noble.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "KLM",
+          "Alliance": "SkyTeam",
+          "ClassPreference": "First",
+          "DiscountCode": "WANGPLCKLM"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 38,
+      "Name": "Vasquez-Cobb",
+      "Address": "82391 Kimberly Park, Wilsonmouth, NY 90441",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Jessica",
+          "LastName": "Briggs",
+          "Email": "denise07@yahoo.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Catherine",
+          "LastName": "Smith",
+          "Email": "rbradshaw@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Jeanette",
+          "LastName": "Hunter",
+          "Email": "natashareynolds@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "VASQUEZ-COBBBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Route",
+          "Description": "SFO-HYD",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "VASQUEZ-COBBROUTE"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "VASQUEZ-COBBCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Hertz Car Rental",
+          "DiscountCode": "VASQUEZ-COBBGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 39,
+      "Name": "Saunders-Ray",
+      "Address": "599 Caldwell River Apt. 710, Taylorshire, AR 57867",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Lisa",
+          "LastName": "Smith",
+          "Email": "jason57@green.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Anita",
+          "LastName": "Smith",
+          "Email": "polsen@yahoo.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "American Airlines",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "SAUNDERS-RAYAMERICAN"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Qatar Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "First",
+          "DiscountCode": "SAUNDERS-RAYQATAR"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "SAUNDERS-RAYHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "SFO-BLR",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "SAUNDERS-RAYROUTE"
+        }
+      ],
+      "AgencyNotes": "Chair evidence happy cup event pull gun up wear practice from."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 40,
+      "Name": "Pruitt Inc",
+      "Address": "307 Sawyer Skyway, Cindyhaven, KY 37236",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Robert",
+          "LastName": "Reyes",
+          "Email": "williamsjohn@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Air India",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "PRUITTINCAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Premier Inn",
+          "Category": "Budget",
+          "DiscountCode": "PRUITTINCHOTEL"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 41,
+      "Name": "Sandoval, Silva and Tyler",
+      "Address": "02791 Tracy Forest Apt. 055, Hodgesburgh, MA 92317",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Theresa",
+          "LastName": "Thomas",
+          "Email": "joan66@bentley-james.info"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "AirAsia",
+          "Alliance": "LowCost",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "SANDOVAL,SILVAANDTYLERAIRASIA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Premier Inn",
+          "Category": "Budget",
+          "DiscountCode": "SANDOVAL,SILVAANDTYLERHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "SANDOVAL,SILVAANDTYLERROUTE"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 42,
+      "Name": "Mason PLC",
+      "Address": "26518 Chen Rest Suite 204, Nicoleport, FL 90883",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Natalie",
+          "LastName": "Marquez",
+          "Email": "anthonygarcia@cole.info"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Steven",
+          "LastName": "Murphy",
+          "Email": "donnahudson@lee-steele.org"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Paige",
+          "LastName": "Vazquez",
+          "Email": "susanenglish@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "EasyJet",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "MASONPLCEASYJET"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "Southwest Airlines",
+          "Alliance": "LowCost",
+          "ClassPreference": "Economy",
+          "DiscountCode": "MASONPLCSOUTHWEST"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Taj Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "MASONPLCHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "MASONPLCROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "ClassPolicy",
+          "Description": "Managers \u2192 Premium Economy",
+          "DiscountCode": "MASONPLCCLASS"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "Meal",
+          "Description": "Standard",
+          "DiscountCode": "MASONPLCMEAL"
+        }
+      ],
+      "AgencyNotes": "Career success responsibility fact onto bed probably dark parent meet affect new of."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 43,
+      "Name": "Vasquez Inc",
+      "Address": "84048 Lisa Valleys, Smithfort, PA 51967",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Erica",
+          "LastName": "Jenkins",
+          "Email": "lreeves@murphy.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Ashley",
+          "LastName": "Fuller",
+          "Email": "ipennington@hotmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Daniel",
+          "LastName": "Krueger",
+          "Email": "tinajennings@hotmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Lufthansa",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "First",
+          "DiscountCode": "VASQUEZINCLUFTHANSA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "United Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "VASQUEZINCUNITED"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Hotel",
+          "Description": "Novotel",
+          "Category": "MidRange",
+          "DiscountCode": "VASQUEZINCHOTEL"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Route",
+          "Description": "NYC-LON",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "VASQUEZINCROUTE"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "ClassPolicy",
+          "Description": "Executives \u2192 Business/First",
+          "DiscountCode": "VASQUEZINCCLASS"
+        },
+        {
+          "Id": 6,
+          "ServiceType": "GroundTransport",
+          "Description": "Uber",
+          "DiscountCode": "VASQUEZINCGROUND"
+        },
+        {
+          "Id": 7,
+          "ServiceType": "Meal",
+          "Description": "Kosher",
+          "DiscountCode": "VASQUEZINCMEAL"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 44,
+      "Name": "French-Strickland",
+      "Address": "29797 Danielle Valleys, Loriberg, VT 39580",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Amy",
+          "LastName": "Wilson",
+          "Email": "amandacopeland@hall-lewis.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Brett",
+          "LastName": "Tyler",
+          "Email": "esmith@graves-carpenter.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Cathay Pacific",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Economy",
+          "DiscountCode": "FRENCH-STRICKLANDCATHAY"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Crowne Plaza",
+          "Category": "MidRange",
+          "DiscountCode": "FRENCH-STRICKLANDHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-SIN",
+          "Policy": "Only nonstop if > 5 hours",
+          "DiscountCode": "FRENCH-STRICKLANDROUTE"
+        }
+      ],
+      "AgencyNotes": "Accept answer a discussion short green lose."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 45,
+      "Name": "Arnold, Spencer and Kelly",
+      "Address": "106 Lawson Square, Brownview, IA 56128",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Derek",
+          "LastName": "Dominguez",
+          "Email": "markalexander@farmer.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Thomas",
+          "LastName": "Allison",
+          "Email": "patrickgould@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "William",
+          "LastName": "Cooper",
+          "Email": "opacheco@martinez-kelly.info"
+        },
+        {
+          "Id": 4,
+          "FirstName": "Brian",
+          "LastName": "Phillips",
+          "Email": "cherylthomas@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "British Airways",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Business",
+          "DiscountCode": "ARNOLD,SPENCERANDKELLYBRITISH"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "OYO Rooms",
+          "Category": "Budget",
+          "DiscountCode": "ARNOLD,SPENCERANDKELLYHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Meal",
+          "Description": "Kosher",
+          "DiscountCode": "ARNOLD,SPENCERANDKELLYMEAL"
+        }
+      ],
+      "AgencyNotes": "Engineering team needs strong Wi-Fi at hotels."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 46,
+      "Name": "Cox, Blake and Best",
+      "Address": "6436 Hughes Canyon, Port Michaelton, CA 10081",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Elizabeth",
+          "LastName": "Bonilla",
+          "Email": "pattersonkelly@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Air India",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Business",
+          "DiscountCode": "COX,BLAKEANDBESTAIR"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "United Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "First",
+          "DiscountCode": "COX,BLAKEANDBESTUNITED"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "COX,BLAKEANDBESTROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Lyft",
+          "DiscountCode": "COX,BLAKEANDBESTGROUND"
+        }
+      ],
+      "AgencyNotes": "Finance department restricts Business class except for executives."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 47,
+      "Name": "Hart, Kramer and Sawyer",
+      "Address": "40819 Jones Parkways Suite 454, Jasonton, ND 93610",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Rodney",
+          "LastName": "Olson",
+          "Email": "estesgregory@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Bradley",
+          "LastName": "Mccarthy",
+          "Email": "curtiscynthia@hubbard.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Lufthansa",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "HART,KRAMERANDSAWYERLUFTHANSA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "HART,KRAMERANDSAWYERCLASS"
+        }
+      ],
+      "AgencyNotes": "Tv themselves writer laugh window treatment beat."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 48,
+      "Name": "Green Inc",
+      "Address": "USNS Hess, FPO AP 48152",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Megan",
+          "LastName": "Jones",
+          "Email": "edwardssusan@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jonathan",
+          "LastName": "Williams",
+          "Email": "judy36@gmail.com"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Amanda",
+          "LastName": "Goodman",
+          "Email": "ulee@martinez.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Lufthansa",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Business",
+          "DiscountCode": "GREENINCLUFTHANSA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hyatt Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "GREENINCHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "ClassPolicy",
+          "Description": "Staff \u2192 Economy",
+          "DiscountCode": "GREENINCCLASS"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "GroundTransport",
+          "Description": "Avis Car Rental",
+          "DiscountCode": "GREENINCGROUND"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 49,
+      "Name": "Owens Inc",
+      "Address": "249 Stewart Viaduct Apt. 937, North Elainehaven, PA 31661",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "Todd",
+          "LastName": "Short",
+          "Email": "vduncan@gmail.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Jessica",
+          "LastName": "Miller",
+          "Email": "andrew60@proctor.biz"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Lisa",
+          "LastName": "Smith",
+          "Email": "timothy73@gmail.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Cathay Pacific",
+          "Alliance": "OneWorld",
+          "ClassPreference": "Premium Economy",
+          "DiscountCode": "OWENSINCCATHAY"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Hotel",
+          "Description": "Hilton Hotels",
+          "Category": "Luxury",
+          "DiscountCode": "OWENSINCHOTEL"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "DXB-AMS",
+          "Policy": "Allow stopover if cheaper",
+          "DiscountCode": "OWENSINCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "ClassPolicy",
+          "Description": "If flight > 8 hrs \u2192 Business allowed",
+          "DiscountCode": "OWENSINCCLASS"
+        },
+        {
+          "Id": 5,
+          "ServiceType": "Meal",
+          "Description": "Vegan",
+          "DiscountCode": "OWENSINCMEAL"
+        }
+      ],
+      "AgencyNotes": "Prefer hotels near airports for staff."
+    }
+  },
+  {
+    "Message": "Company found",
+    "Data": {
+      "Id": 50,
+      "Name": "Klein Inc",
+      "Address": "8487 Christopher Extension, West Katrinaland, GA 54897",
+      "Contacts": [
+        {
+          "Id": 1,
+          "FirstName": "John",
+          "LastName": "Peterson",
+          "Email": "tholt@yahoo.com"
+        },
+        {
+          "Id": 2,
+          "FirstName": "Barbara",
+          "LastName": "Best",
+          "Email": "amber70@merritt.net"
+        },
+        {
+          "Id": 3,
+          "FirstName": "Alyssa",
+          "LastName": "Wilcox",
+          "Email": "campbellalbert@moore.com"
+        }
+      ],
+      "TravelPreferences": [
+        {
+          "Id": 1,
+          "ServiceType": "Airline",
+          "Description": "Lufthansa",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "Economy",
+          "DiscountCode": "KLEININCLUFTHANSA"
+        },
+        {
+          "Id": 2,
+          "ServiceType": "Airline",
+          "Description": "United Airlines",
+          "Alliance": "Star Alliance",
+          "ClassPreference": "First",
+          "DiscountCode": "KLEININCUNITED"
+        },
+        {
+          "Id": 3,
+          "ServiceType": "Route",
+          "Description": "NYC-SFO",
+          "Policy": "Avoid overnight flights",
+          "DiscountCode": "KLEININCROUTE"
+        },
+        {
+          "Id": 4,
+          "ServiceType": "Meal",
+          "Description": "Vegan",
+          "DiscountCode": "KLEININCMEAL"
+        }
+      ],
+      "AgencyNotes": "Only direct flights allowed for international routes."
+    }
+  }
+]

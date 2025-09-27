@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot Screenshot & Recorder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 350px;
+      padding: 15px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    #chat {
+      height: 180px;
+      border: 1px solid #ccc;
+      padding: 8px;
+      overflow-y: auto;
+      margin-bottom: 12px;
+      background: #fff;
+      border-radius: 6px;
+      white-space: pre-wrap;
+      font-size: 14px;
+    }
+    #input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      font-size: 14px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      outline-offset: 2px;
+      outline-color: #4A90E2;
+    }
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    button {
+      flex: 1;
+      padding: 10px;
+      font-size: 15px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #4A90E2;
+      color: white;
+      transition: background-color 0.2s ease;
+      box-shadow: 0 2px 5px rgb(74 144 226 / 0.4);
+    }
+    button:disabled {
+      background: #a3c1f7;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+    button:hover:not(:disabled) {
+      background: #357ABD;
+    }
+    h3 {
+      margin: 8px 0 6px 0;
+      font-weight: 600;
+      font-size: 16px;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat">Chatbot ready...</div>
+  <input id="input" type="text" placeholder="Type your message" autocomplete="off" />
+
+  <h3>Screenshot</h3>
+  <div class="button-group">
+    <button id="screenshotBtn">Take Screenshot</button>
+    <button id="saveScreenshotBtn" disabled>Save Screenshot</button>
+  </div>
+
+  <h3>Screen Recording</h3>
+  <div class="button-group">
+    <button id="startRecordingBtn">Start Recording</button>
+    <button id="stopRecordingBtn" disabled>Stop Recording</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+google-generativeai
+langchain
+langchain-google-genai
+python-dotenv
+Pillow
+pydantic
+fastapi
+uvicorn[standard]
+python-multipart
+google-cloud-vision
+amadeus
